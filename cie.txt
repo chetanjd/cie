@@ -1,0 +1,717 @@
+1a. 
+<!DOCTYPE html>
+<html>
+    <head><title>programOne</title></head>
+    <body>
+        <h1> Chetan Deshpande </h1>
+        <h2> Chetan Deshpande </h2>
+        <h3> Chetan Deshpande </h3>
+        <h4> Chetan Deshpande </h4>
+        <h5> Chetan Deshpande </h5>
+        <h6> Chetan Deshpande </h6>
+    </body>
+</html>
+
+1b.
+
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>programOneB</title>
+        <style>
+            /* Font Styling */ 
+            p {
+            font-family: Arial, sans-serif; font-size: 16px;
+            font-weight: bold; color: #333;
+            }
+            
+            h1 {
+            font-family: Arial, sans-serif; font-size: 24px;
+            font-weight: bold; color: #FF0000;
+            }
+            
+            pre {
+            font-family: Courier, monospace; font-size: 14px;
+            background-color: #F5F5F5; padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Content Formatting</h1>
+
+        <p> 
+            JavaScript and HTML Documents: The javascript Execution Environment, The Document Object Model,<br>
+            Element Access in javascript, Events and Event Handling. Handling Events from Body Elements, <br>
+            Handling Events from Button Elements Handling Events from Text Box and Password, Elements: <br>
+            The DOM 2 Event Model, The canvas Element, The navigator Object, DOM Tree Traversal and Modification.
+        </p>
+
+        <pre>
+            JavaScript and HTML Documents: The javascript Execution Environment, The Document Object Model,<br>
+            Element Access in javascript, Events and Event Handling. Handling Events from Body Elements, <br>
+            Handling Events from Button Elements Handling Events from Text Box and Password, Elements: <br>
+            The DOM 2 Event Model, The canvas Element, The navigator Object, DOM Tree Traversal and Modification.
+        </pre>
+    </body>
+</html>
+
+2a. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> programTwoA </title>
+        <style> 
+            h2 {
+            font-family: Arial, sans-serif; font-size: 16px;
+            font-weight: bold; color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Image Download </h2>
+        <a href="D:\CJD\VK_18\HD-wallpaper-virat-kohli-wali-collage-virat-kohli-collage-king-kohli-cricketer.png" download> <img src="D:\CJD\VK_18\HD-wallpaper-virat-kohli-wali-collage-virat-kohli-collage-king-kohli-cricketer.png" alt="Image" height="480" width="480"> </a>
+    </body>
+</html>
+
+
+2b.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> programTwoB </title>
+        <style>
+            h3 {
+            font-family: Arial, sans-serif; font-size: 24px;
+            font-weight: bold; color: #333;
+            }
+
+            h5 {
+            font-family: Arial, sans-serif; font-size: 16px;
+            font-weight: bold; color: #FF0000;
+            }
+        </style>
+    </head>
+    <body>
+        <h3> Lists and Table </h3>
+        <h5> Unordered list </h5>
+
+        <ul>
+            <li> apple</li>
+            <li> ball</li>
+            <li> cat</li>
+            <li> dog</li>
+        </ul>
+        
+        <h5> Ordered list </h5>
+        <ol> 
+            <li> apple</li>
+            <li> ball</li>
+            <li> cat</li>
+            <li> dog</li>    
+        </ol>
+
+        <h5> Table Example </h5>
+        <table border = 'border'> 
+            <caption>Fruits Quantity Table</caption>
+            <tr> 
+                <th> Fruits </th>
+                <th> Quantity </th>
+            </tr>
+            <tr>
+                <th> Mango </th>
+                <th> 20 </th>
+            </tr>
+            <tr>
+                <th> Orange </th>
+                <th> 10 </th>
+            </tr>
+            <tr>
+                <th> Watermelon </th>
+                <th> 2 </th>
+            </tr>
+            <tr>
+                <th> Chiku </th>
+                <th> 20 </th>
+            </tr>
+            <tr>
+                <th> Apple </th>
+                <th> 15 </th>
+            </tr>
+        </table>
+    </body>
+</html>
+
+2c.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Audio and Video Content </title>
+    </head>
+    <body>
+        <h2> Audio Example </h2>
+        <audio controls>
+            <source src = 'D:\CJD\Special OPS.mp3' type="audio/mpeg">
+            Audio File
+        </audio>
+        <h2> Video Example </h2>
+        <video controls width="420" height="420"> 
+            <source src = 'D:\CJD\VK_18\VK18.mp4' type="video/mp4">
+            Video File
+        </video>
+    </body>
+</html>
+
+3a.
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> CSS Styling </title>
+        <style>
+            /*Font Styling Document Level*/
+            h3 {
+            font-family: Arial, sans-serif; font-size: 24px;
+            font-weight: bold; color: #01113f;
+            }
+
+            h5 {
+            font-family: Arial, sans-serif; font-size: 16px;
+            font-weight: bold; color: #FF0000;
+            }
+
+            pre {
+            font-family: Courier, monospace; font-size: 14px;
+            font-weight: bold; color: #333;
+            background-color: #f5f5f5; padding: 10px;
+            }
+
+            body {
+            font-family: Arial, sans-serif; background-color: #f2f2f2; color: #333;
+            margin: 0; padding: 20px;
+            }
+
+            .highlight{
+                background-color:aqua;
+                font-weight: 100;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body> 
+        <h3> Using Document Level </h3>
+        <h5> The following paragraph is written with the help of document level styling</h5>
+        <pre> 
+            JavaScript and HTML Documents: The javascript Execution Environment, The Document Object Model,<br>
+            Element Access in javascript, Events and Event Handling. Handling Events from Body Elements, <br>
+            Handling Events from Button Elements Handling Events from Text Box and Password, Elements: <br>
+            The DOM 2 Event Model, The canvas Element, The navigator Object, DOM Tree Traversal and Modification.
+        </pre>
+    </body>
+    <body> 
+        <h5> Using basic inline level styling </h5>
+        <p span class = "highlight"> 
+            JavaScript and HTML Documents: The javascript Execution Environment, The Document Object Model,<br>
+            Element Access in javascript, Events and Event Handling. Handling Events from Body Elements, <br>
+            Handling Events from Button Elements Handling Events from Text Box and Password, Elements: <br>
+            The DOM 2 Event Model, The canvas Element, The navigator Object, DOM Tree Traversal and Modification.
+        </p>
+    </body>
+</html>
+
+
+3b.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> External level CSS Styling </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h2> Subject Information </h2>
+        <div id="student">
+            <span class = 'label'> Name:- </span>
+            <span class = 'info'> Web Programming </span>
+        </br>
+            <span class = 'label'> Code:- </span>
+            <span class = 'info'> 21UAI606C </span>
+        </div>
+                
+        <div id="faculty">
+            <span class = 'name'> Chetan Deshpande</span>
+            <br>
+            <span class = 'name'> Shivu Koti</span>
+        </div>
+    </body>
+</html>
+
+
+4a.
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Text Display with JavaScipt </title>
+        <script>
+            function myfun(){
+                var text="Hello, World! This is JavaScript..";
+                document.getElementById("234").innerText=text;
+            }
+        </script>
+    </head>
+    <body> 
+        <H1> Text Display with JavaScript</H1>
+        <div id="234"> </div>
+        <button onclick="myfun()"></button>
+    </body>
+</html>
+
+4b.
+
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Alert Messages with JS</title>
+        <script>
+            function showAlert(){
+                alert("Alert Alert Alert")
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Alert Message with JS</h1>
+        <button onclick="showAlert()">Click maado</button>
+    </body>
+</html>
+
+5a.
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Prompt Window with JS</title>
+        <script>
+            function showPrompt(){
+                var userIP = prompt("Please enter your name:","");
+                if(userIP!=null){
+                    alert("Hello,"+userIP+" !ur name has been entered");
+                }else{
+                    alert("No name---")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Prompt Window with JS</h1>
+        <button onclick="showPrompt()">Click Me</button>
+    </body>
+</html>
+
+5b.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> User Input with Prompt Window </title>
+        <script>
+            function getuserIP(){
+                var userIP = prompt("Please enter ur imput:","");
+                if(userIP!=null){
+                    document.getElementById("output").innerText='Entered Value:'+userIP
+                }else{
+                    document.getElementById("output").innerText="No value entered"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1> User Input with Prompt Window </h1>
+        <button onclick="getuserIP()">Get Input</button>
+        <div id="output"> </div>
+    </body>
+</html>
+
+6a.
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Fibonacci Series</title>
+        </head>
+        <style>
+            h1 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            font-weight: bold;
+            }
+        </style>
+
+        <body>
+            <h1>Fibonacci Series</h1>
+            <?php
+            $n = 20; // Specify the number of Fibonacci numbers to display
+            $first = 0; // First number of the series
+            $second = 1; // Second number of the series 
+            echo "Fibonacci series for $n numbers: ";
+            echo $first . ", " . $second; // Display the first two numbers 
+            for ($i = 2; $i < $n; $i++) {
+            $next = $first + $second; 
+            echo "," . $next;
+            $first = $second;
+            $second = $next;
+            }
+            ?>
+</body>
+</html>
+
+6b.
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Squares of Numbers</title>
+        </head>
+        <style>
+            h1 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            font-weight: bold;
+            }
+        </style>
+        <body>
+        <h1>Squares of Numbers </h1>
+        <?php
+            $n = 10; // Specify the value of 'n'
+
+            $i = 1; // Start from 1
+
+            echo "Square of numbers from 1 to $n: ";
+ 
+
+            while ($i <= $n) {
+            $square = $i * $i; 
+            echo $square . " ";
+            $i++;
+            }
+        ?>
+        </body>
+    </html>
+
+7a. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag and Drop Image</title>
+        <style>
+            .box {
+            width: 200px; height: 200px;
+            border: 2px solid black; margin-bottom: 20px;
+            background-color: bisque;
+            }
+
+            h1 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            font-weight: bold;
+            }
+
+        </style>
+
+        <script>
+        const box = document.getElementById('box');
+        const image = document.getElementById('image');
+
+        image.ondragstart = (event) => {
+            event.dataTransfer.setData('text', event.target.id);
+        };
+
+        box.ondragover = (event) => event.preventDefault();
+
+        box.ondrop = (event) => {
+            event.preventDefault();
+            const data = event.dataTransfer.getData('text');
+            event.target.appendChild(document.getElementById(data));
+        };
+        </script>
+    </head>
+
+    <body>
+        <h1>Drag and Drop Image</h1>
+
+        <div id="box" class="box"></div>
+
+        <img id="image" src="path_to_your_image" draggable="true" width="100" height="100" alt="Draggable Image">
+    </body>
+</html>
+
+8a.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Events </title>
+    </head>
+    <body>
+        <h1> JavaScript Events </h1>
+        <Script language="JavaScript" type="text/JavaScript">
+            function onclickevent(){
+                document.write("This is onclickevent");
+            }
+
+            function mouseoverevent() {
+                alert("This os On mouse");
+            }
+
+            function keydownevent() {
+                alert("Pressed a key");
+            }
+        </Script>
+        <form>
+            <input type="button" onclick="onclickevent()" value="Onclick Event"/>
+            <p onmouseover="mouseoverevent()"> Keep Cursor Over Meee..</p>
+            <input type="text" id="input1" onkeydown="keydownevent()"/>
+        </form>
+    </body>    
+</html>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+    <books>
+        <heading>Welcome To BEC, AIML Web Programming Lab</heading>
+        <book>
+            <title>Title -: Web Programming</title>
+            <author>Author -: Chrisbates</author>
+            <publisher>Publisher -: Wiley</publisher>
+            <edition>Edition -: 3</edition>
+            <price> Price -: 300</price>
+        </book>
+        
+        <book>
+            <title>Title -: Internet world-wide-web</title>
+            <author>Author -: Ditel</author>
+            <publisher>Publisher -: Pearson</publisher>
+            <edition>Edition -: 3</edition>
+            <price>Price -: 400</price>
+        </book>
+
+        <book>
+            <title>Title -: Computer Networks</title>
+            <author>Author -: Foruouzan</author>
+            <publisher>Publisher -: Mc Graw Hill</publisher>
+            <edition>Edition -: 5</edition>
+            <price>Price -: 700</price>
+        </book>
+
+        <book>
+            <title>Title -: DBMS Concepts</title>
+            <author>Author -: Navath</author>
+            <publisher>Publisher -: Oxford</publisher>
+            <edition>Edition -: 5</edition>
+            <price>Price -: 600</price>
+        </book>
+
+        <book>
+            <title>Title -: Linux Programming</title>
+            <author>Author -: Subhitab Das</author>
+            <publisher>Publisher -: Oxford</publisher>
+            <edition>Edition -: 8</edition>
+            <price>Price -: 300</price>
+        </book>
+    </books>
+
+10a. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Welcome Page </title>
+    </head>
+    <body>
+        <?php
+        $sem=3;
+        if($sem==1){
+            echo"Welcome to your first semester";
+        }elseif($sem==2){
+            echo"Welcome to your second semester";
+        }elseif($sem==3){
+            echo"Welcome to your third semester";
+        }else{
+            echo"Welcome to another semester";
+        }
+
+        echo "<br>";
+        switch($sem){
+            case 1:
+                echo"Welcome to your first semester";
+                break;
+            case 2:
+                echo"Welcome to your second semester";
+                break;
+            case 3:
+                echo"Welcome to your third semester";
+                break;
+            default:
+                echo "Welcome to another semester";
+                break;
+        }
+        ?>
+    </body>
+</html>
+
+10b. 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome Message</title>
+</head>
+<body>
+<?php
+$semester = 3; // Set the student's semester
+$branch = "Computer Science"; // Set the student's branch
+// Welcome message based on semester and branch using relational operators
+if ($semester == 1 && $branch == "Computer Science") {
+echo "<h1>Welcome to your first semester of Computer Science!</h1>";
+} elseif ($semester == 1 && $branch == "Electrical Engineering") {
+echo "<h1>Welcome to your first semester of Electrical Engineering!</h1>";
+} elseif ($semester > 1 && $branch == "Computer Science") {
+echo "<h1>Welcome back to Computer Science, semester $semester!</h1>";
+} elseif ($semester > 1 && $branch == "Electrical Engineering") {
+echo "<h1>Welcome back to Electrical Engineering, semester $semester!</h1>";
+} else {
+echo "<h1>Welcome to your semester $semester of $branch!</h1>";
+}
+?>
+</body>
+</html>
+
+11a. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> String Length </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h2> String Length </h2>
+
+        <form method="POST" action=""> 
+            <label for="string">Enter a String</label>
+            <input type="text" name="string" id="string">
+            <button type="submit">Calculate Length</button>
+        </form>
+
+        <?php
+        if($_SERVER['REQUEST_METHOD']==='POST'){
+            $string=$_POST['string'];
+            $length=strlen($string);
+            echo "Length of the string '$string' is: $length"; 
+        }
+        ?>
+    </body>
+</html>
+
+
+11b. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String Comparision </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h1> String Comparision </h1>
+        <form method="POST" action="">
+            <label for="string1">Enter String 1</label>
+            <input type="text" name="string1" id="string1">
+            <br>
+            <label for="string2">Enter String 2</label>
+            <input type="text" name="string2" id="string2">
+            <br>
+            <button type="submit" name="submit">COMPARE</button>
+        </form>
+
+        <?php
+        if(isset($_POST['submit'])){
+            $string1 = $_POST['string1'];
+            $string2 = $_POST['string2'];
+
+            if($string1 === $string2){
+                echo "The strings are equal";
+            }else{
+                echo "The strings are not equal"; 
+            }
+        }
+        ?>
+    </body>
+</html>
+
+12a. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Of Character</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>Position of Character</h1>
+        <pre>
+        <?php
+        $string = 'Hello World';
+        $character = 'o';
+
+        $position = strpos($string,$character);
+        if ($position !== false) {
+            echo "The character '$character' is found at position in string";
+        } else {
+            echo "The character '$character' is not found";
+        }
+        ?>
+        </pre>
+    </body>
+</html>
+
+12b. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Even Odd</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>Display Even Odd Numbers Seperately</h1>
+        <?php
+        $num = 20;
+        echo "Even Numbers";
+        for ($i = 1; $i < $num; $i++) {
+            if ($i%2 == 0) {
+                echo $i."";
+        }
+    }
+        echo "<br>";
+        echo"Odd Numbers";
+        for ($i = 1; $i < $num; $i++) {
+            if ($i%2 != 0) {
+                echo $i."";
+        }
+        }
+        ?>
+    </body>
+</html>
+
+12c. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String To Array</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h3>Converting String To Array</h3>
+        <?php
+        $string = "Chetan,Deshpande,Dept,OF,AIML";
+
+        $aray = explode(",", $string);
+        echo "Array:";
+        print_r($aray);
+        echo "<br>";
+
+        $new_str = implode(",", $aray); 
+        echo "String:$new_str";
+        ?>
+    </body>
+</html>
