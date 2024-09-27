@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> User Input with Prompt Window </title>
+        <script>
+            function getuserIP(){
+                var userIP = prompt("Please enter ur imput:","");
+                if(userIP!=null){
+                    document.getElementById("output").innerText='Entered Value:'+userIP
+                }else{
+                    document.getElementById("output").innerText="No value entered"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1> User Input with Prompt Window </h1>
+        
+        <div id="output">  
+            <button onclick="getuserIP()">Get Input</button> 
+        </div>
+    </body>
+</html>

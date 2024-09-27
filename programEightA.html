@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Events </title>
+    </head>
+    <body>
+        <h1> JavaScript Events </h1>
+        <Script language="JavaScript" type="text/JavaScript">
+            function onclickevent(){
+                document.write("This is onclickevent");
+            }
+
+            function mouseoverevent() {
+                alert("This os On mouse");
+            }
+
+            function keydownevent() {
+                alert("Pressed a key");
+            }
+        </Script>
+        <form>
+            <input type="button" onclick="onclickevent()" value="Onclick Event"/>
+            <p onmouseover="mouseoverevent()"> Keep Cursor Over Meee..</p>
+            <input type="text" id="input1" onkeydown="keydownevent()"/>
+        </form>
+    </body>    
+</html>

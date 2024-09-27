@@ -1,0 +1,108 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #f2f2f2; color: #333;
+  margin: 0; padding: 20px;
+}
+
+h3 {
+	font-family: Arial, sans-serif; font-size: 24px;
+	font-weight: bold; color: #01113f;
+}
+
+h1 {
+	font-family: Arial, sans-serif; font-size: 24px;
+	font-weight: bold; color: #064c9c;
+}
+
+h2 {
+	font-family: Arial, sans-serif; font-size: 32px;
+	font-weight: bold; color: #000000;
+	text-align: center;
+}
+
+pre {
+	
+	font-weight: bold; color: #000000;
+	font-family: Courier, monospace; font-size: 16px;
+	background-color: #2098f4; padding: 12px;
+}
+
+input {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+button {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #064c9c;
+	font-weight: bold; color: #000000;
+	font-family: Courier, monospace; font-size: 16px;
+}
+
+div.button {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #e51;
+}
+
+form { 
+	width: 480px; 
+	margin: auto;
+	padding: 5px; 
+	border: solid black 1px;	
+	border-radius: 5px;  
+	box-shadow: 5px 5px 2px #888;
+}
+
+table { 
+    width: 80%; 
+    margin: auto;
+    border-collapse: collapse; 
+    box-shadow: 5px 5px 2px #888; 
+}
+
+th, td { 
+    padding: 10px; 
+    text-align: left; 
+    border: 1px solid black; 
+}
+
+th { 
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+
+tr:nth-child(even) { 
+    background-color: #f9f9f9; 
+}
+
+tr:hover { 
+    background-color: #d1e7dd; 
+}
+
+/* CSS styling for id, class, and selector */
+#student {
+	margin-bottom: 10px;
+	background-color: #020000; padding: 10px;
+}
+.label {
+font-weight: bold; color: rgba(185, 30, 2, 0.779);
+}
+.info {
+color: rgb(2, 43, 181);
+}
+
+#faculty{
+	font-family: Courier, monospace; font-size: 14px;
+	font-weight: bold; color: #333;
+	background-color: #f5f5f5; padding: 10px;
+}
+
+.name{
+font-weight: bold; color: rgba(185, 30, 2, 0.779);	
+}
+

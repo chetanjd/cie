@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Prompt Window with JS</title>
+        <script>
+            function showPrompt(){
+                var userIP = prompt("Please enter your name:","");
+                if(userIP!=null){
+                    alert("Hello,"+userIP+" !ur name has been entered");
+                }else{
+                    alert("No name---")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Prompt Window with JS</h1>
+        <button onclick="showPrompt()">Click Me</button>
+    </body>
+</html>
